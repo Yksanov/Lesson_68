@@ -22,7 +22,10 @@ namespace WebApplication3.Controllers
 
         public IActionResult Privacy()
         {
-            return View("Policy");
+            string posilcy = "Текст политики конфидециальности сайта";
+            ViewData["Policy"] = posilcy;
+            ViewResult vr = View("Privacy");
+            return vr;
         }
 
         public IActionResult TestPage(int page)

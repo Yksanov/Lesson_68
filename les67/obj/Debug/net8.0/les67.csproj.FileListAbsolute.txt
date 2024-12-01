@@ -58,3 +58,4 @@ D:\Attractor\month#2\les67\les67\obj\Debug\net8.0\refint\les67.dll
 D:\Attractor\month#2\les67\les67\obj\Debug\net8.0\les67.pdb
 D:\Attractor\month#2\les67\les67\obj\Debug\net8.0\les67.genruntimeconfig.cache
 D:\Attractor\month#2\les67\les67\obj\Debug\net8.0\ref\les67.dll
+D:\Attractor\month#2\les67\les67\obj\Debug\net8.0\les67.sourcelink.json

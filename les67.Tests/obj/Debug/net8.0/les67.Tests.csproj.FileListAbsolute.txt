@@ -214,3 +214,4 @@ D:\Attractor\month#2\les67\les67.Tests\obj\Debug\net8.0\refint\les67.Tests.dll
 D:\Attractor\month#2\les67\les67.Tests\obj\Debug\net8.0\les67.Tests.pdb
 D:\Attractor\month#2\les67\les67.Tests\obj\Debug\net8.0\les67.Tests.genruntimeconfig.cache
 D:\Attractor\month#2\les67\les67.Tests\obj\Debug\net8.0\ref\les67.Tests.dll
+D:\Attractor\month#2\les67\les67.Tests\obj\Debug\net8.0\les67.Tests.sourcelink.json
