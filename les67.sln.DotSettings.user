@@ -1,4 +1,14 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c52aa36e_002D31d6_002D4a57_002D8721_002D8f6de79d846e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="IndexViewDataMessage" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6c88906e_002D7a50_002D4507_002Db969_002D7299ca633ee9/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Md5HashPasswordTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::0F0DFEA3-E4F4-4B23-A315-9D9DD0D0C007::net8.0::les67.Tests.PasswordHasherTests.Md5HashPasswordTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c52aa36e_002D31d6_002D4a57_002D8721_002D8f6de79d846e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="IndexViewDataMessage" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;Solution /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=decc47b3_002D6486_002D4da6_002Dadd2_002D22c8181adf37/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Md5HashPasswordTest #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::0F0DFEA3-E4F4-4B23-A315-9D9DD0D0C007::net8.0::les67.Tests.PasswordHasherTests.Md5HashPasswordTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

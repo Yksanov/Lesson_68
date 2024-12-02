@@ -12,7 +12,12 @@ namespace WebApplication3.Services
         /// <param name="password"></param>
         public byte[] Md5HashPassword(string password)
         {
-            return new byte[0];
+            using (MD5 md5 = MD5.Create())
+            {
+                byte[] hashBytes = md5.ComputeHash(Encoding.UTF8.GetBytes(password));
+                Array.Resize(ref hashBytes, 16);
+                return hashBytes;
+            }
         }
         /// <summary>
         /// Метод принимает в себя MD5 hash (массив байт)
@@ -21,7 +26,13 @@ namespace WebApplication3.Services
         /// <returns>Возвращается значение хэша в hexCode</returns>
         public string ToHex(byte[] bytes)
         {
-            return String.Empty;
+            string result = "";
+            foreach (byte b in bytes)
+            {
+                result += b.ToString("x");
+            }
+
+            return result;
         }
     }
 }
