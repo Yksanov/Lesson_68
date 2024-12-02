@@ -39,5 +39,10 @@ public class HomeControllerTests
         ViewResult result = controller.TestPage(page) as ViewResult;
         Assert.NotNull(result);
         Assert.Equal(typeof(TestPageViewModel), result.Model.GetType());
+        TestPageViewModel model = result.Model as TestPageViewModel;
+        Assert.NotNull(model);
+        Assert.Equal(page + 1, model.Page);
+        Assert.NotNull(controller.ViewBag.PageIncrement);
+        Assert.Equal(page + 1, controller.ViewBag.PageIncrement);
     }
 }
