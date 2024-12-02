@@ -35,7 +35,7 @@ public class HomeControllerTests
     public void TestPageTest()
     {
         HomeController controller = new HomeController();
-        int page = 0;
+        int page = 1;
         ViewResult result = controller.TestPage(page) as ViewResult;
         Assert.NotNull(result);
         Assert.Equal(typeof(TestPageViewModel), result.Model.GetType());
