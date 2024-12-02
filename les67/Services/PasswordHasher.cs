@@ -14,9 +14,7 @@ namespace WebApplication3.Services
         {
             using (MD5 md5 = MD5.Create())
             {
-                byte[] hashBytes = md5.ComputeHash(Encoding.UTF8.GetBytes(password));
-                Array.Resize(ref hashBytes, 16);
-                return hashBytes;
+                return md5.ComputeHash(Encoding.UTF8.GetBytes(password));
             }
         }
         /// <summary>
