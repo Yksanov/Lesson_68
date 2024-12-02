@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using WebApplication3;
 using WebApplication3.Controllers;
+using WebApplication3.Models;
 
 public class HomeControllerTests
 {
@@ -28,6 +29,15 @@ public class HomeControllerTests
         Assert.EndsWith("сайта.", result?.ViewData["Policy"] as string);
         Assert.Equal(39, (result?.ViewData["Policy"] as string).Length);
     }
- 
-        
+
+    [Fact]
+
+    public void TestPageTest()
+    {
+        HomeController controller = new HomeController();
+        int page = 0;
+        ViewResult result = controller.TestPage(page) as ViewResult;
+        Assert.NotNull(result);
+        Assert.Equal(typeof(TestPageViewModel), result.Model.GetType());
+    }
 }
